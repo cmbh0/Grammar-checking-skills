@@ -1,0 +1,44 @@
+{
+  "name": "code-validator",
+  "version": "1.0.0",
+  "description": "代码语法验证与自动修复技能 - 智能检测代码错误、自动修复并维护错误库",
+  "maintainer": "AI Assistant",
+  "tags": ["validation", "linting", "code-quality", "error-fixing"],
+  "capabilities": {
+    "syntax_checking": true,
+    "auto_fix": true,
+    "error_library": true,
+    "multi_language": true
+  },
+  "supported_languages": [
+    "javascript",
+    "typescript",
+    "python",
+    "java",
+    "go",
+    "rust",
+    "cpp",
+    "c",
+    "csharp",
+    "ruby",
+    "php",
+    "dart",
+    "kotlin",
+    "swift",
+    "r",
+    "scala",
+    "haskell",
+    "lua",
+    "perl",
+    "shell"
+  ],
+  "execution": {
+    "entry_point": "code_validator.sh",
+    "requires_project": true
+  },
+  "error_library": {
+    "storage_path": ".solo/skills/code-validator/error_library.json",
+    "max_entries": 1000,
+    "auto_cleanup": true
+  }
+}
