@@ -63,6 +63,3 @@ python3 code_validator.py library
 - 为项目建立基础质量门禁。
 - 记录常见错误并形成可复用修复经验。
 
-## 许可证
-
-MIT License
