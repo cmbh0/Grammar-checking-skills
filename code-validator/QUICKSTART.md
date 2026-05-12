@@ -456,5 +456,3 @@ tail -f validation.log
 ---
 
 **版本**: 1.0.0
-**最后更新**: 2024-01-15
-**维护者**: AI Assistant
